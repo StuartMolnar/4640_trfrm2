@@ -1,4 +1,4 @@
 .env
-./mgmt/do_token
-./dev/my_key
-./dev/my_key.pub
+mgmt/do_token
+dev/my_key
+dev/my_key.pub
