@@ -38,7 +38,7 @@ resource "digitalocean_vpc" "web_vpc" {
 resource "digitalocean_droplet" "web" {
   image    = "rockylinux-9-x64"
   count    = var.droplet_count
-  name     = "web-1${count.index + 1}"
+  name     = "web-${count.index + 1}"
   tags     = [digitalocean_tag.do_tag.id]
   region   = "sfo3"
   size     = "s-1vcpu-512mb-10gb"

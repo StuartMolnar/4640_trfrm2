@@ -1,0 +1,4 @@
+---
+plugin: digitalocean_droplet
+regions:
+ - sfo3
